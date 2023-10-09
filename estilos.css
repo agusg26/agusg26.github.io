@@ -1,0 +1,24 @@
+#fondo{
+    background: linear-gradient(rgba(39, 39, 48, 0.75),rgba(27, 19, 13, 0.445)), url(../TP_Integrad/Imgs/ba1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    }
+
+#titulos{
+    color: white;
+}
+p{
+    color: white;
+    text-align: end;
+}
+#textoC{
+    color: black;
+    text-align: start;
+    font-size: small;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
