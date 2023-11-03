@@ -34,7 +34,7 @@
                         <a class="nav-link" style="color: silver;">Conviértete en Orador</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://agusg26.github.io" style="color: green;">Comprar tickets</a>
+                        <a class="nav-link" href="#venta" style="color: green;">Comprar tickets</a>
                     </li>
                 </ul>
             </div>
@@ -60,7 +60,7 @@
         <div class="row">
             <div class="col-sm-8"></div>
             <div class="col-sm-4"><button type="button" href="https://agusg26.github.io" class="btn btn-outline-light"><b>Quiero ser Orador</b></button>
-            <button type="button" href="https://agusg26.github.io" class="btn btn-success">Comprar tickets</button></div>
+            <button type="button" class="btn btn-success">Comprar tickets</button></div>
 
         </div>
         <div class="row">
@@ -131,6 +131,88 @@
             </div>
         </div>
     </div>
+    <br><br><br>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="card border-primary m-1" style="max-width: 15rem;">
+                <div class="card-body text" style="text-align: center;">
+                  <h5 class="card-title">Estudiante</h5>
+                  <a>Tienen un descuento</a>
+                  <br><br>
+                  <a><b>80%</b></a>
+                  <br><br>
+                  <a style="color:darkgrey; font-size: small;">*presentar documentación</a>
+                </div>
+            </div>
+            <div class="card border-primary m-1" style="max-width: 15rem;">
+                <div class="card-body text" style="text-align: center;">
+                  <h5 class="card-title">Trainee</h5>
+                  <a>Tienen un descuento</a>
+                  <br><br>
+                  <a><b>50%</b></a>
+                  <br><br>
+                  <a style="color:darkgrey; font-size: small;">*presentar documentación</a>
+                </div>
+            </div>
+            <div class="card border-warning m-1" style="max-width: 15rem;">
+                <div class="card-body text" style="text-align: center;">
+                  <h5 class="card-title">Junior</h5>
+                  <a>Tienen un descuento</a>
+                  <br><br>
+                  <a><b>15%</b></a>
+                  <br><br>
+                  <a style="color:darkgrey; font-size: small;">*presentar documentación</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12" style="text-align: center;"><a id="venta">VENTA</a></div>
+            <div class="col-sm-12" style="text-align: center;"><h2>VALOR DE TICKET $200</h2></div>
+        </div>
+
+        <form id="formulario">
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Correo">
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <label for="formGroupExampleInput">Cantidad</label>
+                    <input type="number" class="form-control mt-1" id="cant" placeholder="Cantidad">
+                </div>
+                <div class="col">
+                    <label for="formGroupExampleInput">Categoria</label>
+                    <select id="inputState" class="form-control mt-1">
+                        <option selected>Estudiante</option>
+                        <option>Trainee</option>
+                        <option>Junior</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div class="alert alert-info" id="respuesta"><strong>Total a Pagar:</strong></div>
+        </form>
+        <div class="form-group row justify-content-center">
+            <div class="col-4">
+                <button type="button" class="btn btn-success m-4" id="resumen" style="width: 20rem;">Resumen </button>
+            </div>
+            <div class="col-4">
+                <button type="button" class="btn btn-success m-4" id="borrar" style="width: 20rem;">Borrar</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="resumen.js"></script>
+    
     
 </body>
 </html>
