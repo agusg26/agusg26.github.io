@@ -22,3 +22,7 @@ p{
     display: flex;
     flex-direction: column;
 }
+.pagar{
+    background: linear-gradient(rgba(159, 159, 240, 0.75),rgba(127, 190, 180, 0.445));
+    height: 3rem;
+}
